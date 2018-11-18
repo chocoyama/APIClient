@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ChocoyamaAPIClient
+import APIClient
 
 class ViewController: UIViewController {
     
