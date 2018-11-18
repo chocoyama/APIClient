@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		6B1256ED21A144E7009587B0 /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1256EC21A144E7009587B0 /* API.plist */; };
 		6B1256EF21A14500009587B0 /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1256EE21A14500009587B0 /* API.plist */; };
-		6B1256F121A14677009587B0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256F021A14677009587B0 /* Logger.swift */; };
-		6B1256F421A1467D009587B0 /* Date+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256F221A1467D009587B0 /* Date+CustomExtension.swift */; };
-		6B1256F521A1467D009587B0 /* String+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256F321A1467D009587B0 /* String+CustomExtension.swift */; };
 		6B1256FB21A146A2009587B0 /* YelpAPIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256FA21A146A2009587B0 /* YelpAPIClientTest.swift */; };
 		6B1256FD21A146A9009587B0 /* YahooAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256FC21A146A9009587B0 /* YahooAPIClientTests.swift */; };
 		6B1256FF21A146AF009587B0 /* RakutenAPIClientsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1256FE21A146AF009587B0 /* RakutenAPIClientsTests.swift */; };
+		6B12572421A14AFB009587B0 /* Date+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12572121A14AA4009587B0 /* Date+CustomExtension.swift */; };
+		6B12572521A14AFD009587B0 /* String+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12572021A14AA3009587B0 /* String+CustomExtension.swift */; };
+		6B12572621A14B01009587B0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B12571E21A14A6E009587B0 /* Logger.swift */; };
 		6B2D6C641EB71488003607F5 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C631EB71488003607F5 /* Authorization.swift */; };
 		6B2D6C661EB7230F003607F5 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C651EB7230F003607F5 /* Header.swift */; };
 		6B2D6C6B1EB72B41003607F5 /* YelpSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C6A1EB72B41003607F5 /* YelpSearch.swift */; };
@@ -135,12 +135,12 @@
 /* Begin PBXFileReference section */
 		6B1256EC21A144E7009587B0 /* API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = API.plist; sourceTree = "<group>"; };
 		6B1256EE21A14500009587B0 /* API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API.plist; path = Sample/API.plist; sourceTree = SOURCE_ROOT; };
-		6B1256F021A14677009587B0 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = ../../chocoyamaapiclient.old/APIClient/Logger.swift; sourceTree = "<group>"; };
-		6B1256F221A1467D009587B0 /* Date+CustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+CustomExtension.swift"; path = "../../chocoyamaapiclient.old/APIClient/Date+CustomExtension.swift"; sourceTree = "<group>"; };
-		6B1256F321A1467D009587B0 /* String+CustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+CustomExtension.swift"; path = "../../chocoyamaapiclient.old/APIClient/String+CustomExtension.swift"; sourceTree = "<group>"; };
 		6B1256FA21A146A2009587B0 /* YelpAPIClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAPIClientTest.swift; sourceTree = "<group>"; };
 		6B1256FC21A146A9009587B0 /* YahooAPIClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooAPIClientTests.swift; sourceTree = "<group>"; };
 		6B1256FE21A146AF009587B0 /* RakutenAPIClientsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenAPIClientsTests.swift; sourceTree = "<group>"; };
+		6B12571E21A14A6E009587B0 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		6B12572021A14AA3009587B0 /* String+CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CustomExtension.swift"; sourceTree = "<group>"; };
+		6B12572121A14AA4009587B0 /* Date+CustomExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+CustomExtension.swift"; sourceTree = "<group>"; };
 		6B2D6C631EB71488003607F5 /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		6B2D6C651EB7230F003607F5 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		6B2D6C6A1EB72B41003607F5 /* YelpSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpSearch.swift; sourceTree = "<group>"; };
@@ -263,8 +263,8 @@
 		6B1256E721A143F5009587B0 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				6B301C0121A121CB0092C6BB /* Helper */,
-				6B301C0021A121BE0092C6BB /* Extension */,
+				6B12572321A14ABD009587B0 /* Helper */,
+				6B12572221A14AB3009587B0 /* Extension */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -303,23 +303,214 @@
 			path = Yahoo;
 			sourceTree = "<group>";
 		};
-		6B2D6C671EB72AD7003607F5 /* Search */ = {
+		6B12570421A14864009587B0 /* Yelp */ = {
+			isa = PBXGroup;
+			children = (
+				6B12570C21A14900009587B0 /* API */,
+				6B12571B21A14A1A009587B0 /* Entity */,
+				6B12571C21A14A34009587B0 /* Value */,
+			);
+			path = Yelp;
+			sourceTree = "<group>";
+		};
+		6B12570521A14881009587B0 /* Yahoo */ = {
+			isa = PBXGroup;
+			children = (
+				6B12570B21A148EC009587B0 /* Shopping */,
+			);
+			path = Yahoo;
+			sourceTree = "<group>";
+		};
+		6B12570621A1488C009587B0 /* Rakuten */ = {
+			isa = PBXGroup;
+			children = (
+				6B12570A21A148DB009587B0 /* Books */,
+			);
+			path = Rakuten;
+			sourceTree = "<group>";
+		};
+		6B12570A21A148DB009587B0 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				6B12570E21A14936009587B0 /* API */,
+				6B12571021A14953009587B0 /* Entity */,
+				6B12571121A14962009587B0 /* Value */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		6B12570B21A148EC009587B0 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				6B12571621A149A1009587B0 /* API */,
+				6B12571521A1499A009587B0 /* Factory */,
+				6B12571421A14995009587B0 /* Entity */,
+				6B12571321A14990009587B0 /* Value */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		6B12570C21A14900009587B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B12571A21A14A06009587B0 /* Search */,
+				6B12571921A14A00009587B0 /* Business */,
+				6B6C2E751EB6F35F008AEC4B /* YelpAPIEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B12570D21A14911009587B0 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				6B2D6C631EB71488003607F5 /* Authorization.swift */,
+				6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		6B12570E21A14936009587B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B12570F21A14944009587B0 /* BookSearch */,
+				80A5E6441E1D0C3F0087AC3B /* RakutenBooksAPIEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B12570F21A14944009587B0 /* BookSearch */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E65F1E1D0C810087AC3B /* RakutenBooksSearch.swift */,
+			);
+			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		6B12571021A14953009587B0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E65A1E1D0C6A0087AC3B /* RakutenBookSearchItem.swift */,
+				80A5E65B1E1D0C6A0087AC3B /* RakutenBookSearchMetaData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6B12571121A14962009587B0 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E64A1E1D0C5E0087AC3B /* BookSize.swift */,
+				80A5E64B1E1D0C5E0087AC3B /* Carrier.swift */,
+				80A5E64C1E1D0C5E0087AC3B /* ChirayomiFlag.swift */,
+				80A5E64D1E1D0C5E0087AC3B /* GenreInfoFlag.swift */,
+				80A5E64E1E1D0C5E0087AC3B /* LimitedFlag.swift */,
+				80A5E64F1E1D0C5E0087AC3B /* OutOfStockFlag.swift */,
+				80A5E6501E1D0C5E0087AC3B /* RakutenBooksAvailability.swift */,
+				80A5E6511E1D0C5E0087AC3B /* RakutenSort.swift */,
+			);
+			path = Value;
+			sourceTree = "<group>";
+		};
+		6B12571321A14990009587B0 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E6301E1D0C230087AC3B /* ImageSize.swift */,
+				80A5E6311E1D0C230087AC3B /* ModuleType.swift */,
+				80A5E6321E1D0C230087AC3B /* PaymentType.swift */,
+				80A5E6331E1D0C230087AC3B /* RegionCode.swift */,
+				80A5E6341E1D0C230087AC3B /* ResponseGroup.swift */,
+				80A5E6351E1D0C230087AC3B /* SearchType.swift */,
+				80A5E6361E1D0C230087AC3B /* SellerFilterType.swift */,
+				80A5E6371E1D0C230087AC3B /* ShippingType.swift */,
+				80A5E6381E1D0C230087AC3B /* StamprallyRank.swift */,
+			);
+			path = Value;
+			sourceTree = "<group>";
+		};
+		6B12571421A14995009587B0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E60C1E1D0C150087AC3B /* Area.swift */,
+				80A5E60D1E1D0C150087AC3B /* Availability.swift */,
+				80A5E60E1E1D0C150087AC3B /* Brand.swift */,
+				80A5E60F1E1D0C150087AC3B /* Category.swift */,
+				80A5E6101E1D0C150087AC3B /* Condition.swift */,
+				80A5E6111E1D0C150087AC3B /* Image.swift */,
+				80A5E6121E1D0C150087AC3B /* Inventory.swift */,
+				80A5E6131E1D0C150087AC3B /* Item.swift */,
+				80A5E6141E1D0C150087AC3B /* Module.swift */,
+				80A5E6151E1D0C150087AC3B /* Order.swift */,
+				80A5E6161E1D0C150087AC3B /* Payment.swift */,
+				80A5E6171E1D0C150087AC3B /* Point.swift */,
+				80A5E6181E1D0C150087AC3B /* Price.swift */,
+				80A5E6191E1D0C150087AC3B /* Review.swift */,
+				80A5E61A1E1D0C150087AC3B /* SellerType.swift */,
+				80A5E61B1E1D0C150087AC3B /* Shipping.swift */,
+				80A5E61C1E1D0C150087AC3B /* Store.swift */,
+				80A5E61D1E1D0C150087AC3B /* ToolType.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6B12571521A1499A009587B0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E6081E1D0C090087AC3B /* ItemFactory.swift */,
+				80A5E6091E1D0C090087AC3B /* ModuleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		6B12571621A149A1009587B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B12571821A149E1009587B0 /* ItemLookup */,
+				6B12571721A149DB009587B0 /* ItemSearch */,
+				80A5E5F71E1D0BAA0087AC3B /* YahooShoppingAPIEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B12571721A149DB009587B0 /* ItemSearch */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E6001E1D0BE60087AC3B /* ShoppingItemSearch.swift */,
+			);
+			path = ItemSearch;
+			sourceTree = "<group>";
+		};
+		6B12571821A149E1009587B0 /* ItemLookup */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E6041E1D0BF50087AC3B /* ShoppingItemLookup.swift */,
+			);
+			path = ItemLookup;
+			sourceTree = "<group>";
+		};
+		6B12571921A14A00009587B0 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				6B8852151EB82A6D0075FFED /* YelpBusiness.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		6B12571A21A14A06009587B0 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				6B2D6C6A1EB72B41003607F5 /* YelpSearch.swift */,
 			);
-			name = Search;
+			path = Search;
 			sourceTree = "<group>";
 		};
-		6B2D6C6E1EB72FE2003607F5 /* Entity */ = {
+		6B12571B21A14A1A009587B0 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				6B2D6C6F1EB72FEE003607F5 /* Business.swift */,
 			);
-			name = Entity;
+			path = Entity;
 			sourceTree = "<group>";
 		};
-		6B2D6C711EB73010003607F5 /* Value */ = {
+		6B12571C21A14A34009587B0 /* Value */ = {
 			isa = PBXGroup;
 			children = (
 				6B2D6C721EB73022003607F5 /* Coordinate.swift */,
@@ -332,32 +523,30 @@
 				6B8852121EB80B9E0075FFED /* Attributes.swift */,
 				6B8852171EB8367A0075FFED /* Hour.swift */,
 			);
-			name = Value;
+			path = Value;
 			sourceTree = "<group>";
 		};
-		6B301C0021A121BE0092C6BB /* Extension */ = {
+		6B12572221A14AB3009587B0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6B1256F221A1467D009587B0 /* Date+CustomExtension.swift */,
-				6B1256F321A1467D009587B0 /* String+CustomExtension.swift */,
+				6B12572121A14AA4009587B0 /* Date+CustomExtension.swift */,
+				6B12572021A14AA3009587B0 /* String+CustomExtension.swift */,
 			);
-			name = Extension;
-			path = ..;
+			path = Extension;
 			sourceTree = "<group>";
 		};
-		6B301C0121A121CB0092C6BB /* Helper */ = {
+		6B12572321A14ABD009587B0 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				6B1256F021A14677009587B0 /* Logger.swift */,
+				6B12571E21A14A6E009587B0 /* Logger.swift */,
 			);
-			name = Helper;
-			path = ..;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		6B301C1021A13C840092C6BB /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				6B39DECA1EB95EAD009F6AA6 /* Authorization */,
+				6B12570D21A14911009587B0 /* Authorization */,
 				80A5E5E91E1D0B8A0087AC3B /* Client.swift */,
 				6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */,
 				80A5E5EA1E1D0B8A0087AC3B /* APIConfiguration.swift */,
@@ -373,9 +562,9 @@
 		6B301C1221A13CAF0092C6BB /* API */ = {
 			isa = PBXGroup;
 			children = (
-				6B6C2E691EB6E89A008AEC4B /* Yelp */,
-				80A5E5E41E1D0B550087AC3B /* Yahoo */,
-				80A5E5E31E1D0B4F0087AC3B /* Rakuten */,
+				6B12570621A1488C009587B0 /* Rakuten */,
+				6B12570521A14881009587B0 /* Yahoo */,
+				6B12570421A14864009587B0 /* Yelp */,
 				6B301BFE219FE44A0092C6BB /* API.swift */,
 			);
 			path = API;
@@ -398,45 +587,6 @@
 				6B301C0721A131E50092C6BB /* APITests.swift */,
 			);
 			path = Client;
-			sourceTree = "<group>";
-		};
-		6B39DECA1EB95EAD009F6AA6 /* Authorization */ = {
-			isa = PBXGroup;
-			children = (
-				6B2D6C631EB71488003607F5 /* Authorization.swift */,
-				6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */,
-			);
-			name = Authorization;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6B6C2E691EB6E89A008AEC4B /* Yelp */ = {
-			isa = PBXGroup;
-			children = (
-				6B6C2E741EB6F34E008AEC4B /* API */,
-				6B2D6C6E1EB72FE2003607F5 /* Entity */,
-				6B2D6C711EB73010003607F5 /* Value */,
-			);
-			name = Yelp;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6B6C2E741EB6F34E008AEC4B /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B2D6C671EB72AD7003607F5 /* Search */,
-				6B8852141EB82A570075FFED /* Business */,
-				6B6C2E751EB6F35F008AEC4B /* YelpAPIEndpoint.swift */,
-			);
-			name = API;
-			sourceTree = "<group>";
-		};
-		6B8852141EB82A570075FFED /* Business */ = {
-			isa = PBXGroup;
-			children = (
-				6B8852151EB82A6D0075FFED /* YelpBusiness.swift */,
-			);
-			name = Business;
 			sourceTree = "<group>";
 		};
 		80A5E5BE1E1D0B230087AC3B = {
@@ -482,162 +632,6 @@
 				6B1256EE21A14500009587B0 /* API.plist */,
 			);
 			path = APIClientTests;
-			sourceTree = "<group>";
-		};
-		80A5E5E31E1D0B4F0087AC3B /* Rakuten */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6421E1D0C340087AC3B /* Books */,
-			);
-			name = Rakuten;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		80A5E5E41E1D0B550087AC3B /* Yahoo */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E5F51E1D0B9B0087AC3B /* Shopping */,
-			);
-			name = Yahoo;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		80A5E5F51E1D0B9B0087AC3B /* Shopping */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E5FD1E1D0BC60087AC3B /* API */,
-				80A5E5FC1E1D0BC10087AC3B /* Factory */,
-				80A5E5FB1E1D0BB80087AC3B /* Entity */,
-				80A5E5FA1E1D0BB20087AC3B /* Value */,
-			);
-			name = Shopping;
-			sourceTree = "<group>";
-		};
-		80A5E5FA1E1D0BB20087AC3B /* Value */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6301E1D0C230087AC3B /* ImageSize.swift */,
-				80A5E6311E1D0C230087AC3B /* ModuleType.swift */,
-				80A5E6321E1D0C230087AC3B /* PaymentType.swift */,
-				80A5E6331E1D0C230087AC3B /* RegionCode.swift */,
-				80A5E6341E1D0C230087AC3B /* ResponseGroup.swift */,
-				80A5E6351E1D0C230087AC3B /* SearchType.swift */,
-				80A5E6361E1D0C230087AC3B /* SellerFilterType.swift */,
-				80A5E6371E1D0C230087AC3B /* ShippingType.swift */,
-				80A5E6381E1D0C230087AC3B /* StamprallyRank.swift */,
-			);
-			name = Value;
-			sourceTree = "<group>";
-		};
-		80A5E5FB1E1D0BB80087AC3B /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E60C1E1D0C150087AC3B /* Area.swift */,
-				80A5E60D1E1D0C150087AC3B /* Availability.swift */,
-				80A5E60E1E1D0C150087AC3B /* Brand.swift */,
-				80A5E60F1E1D0C150087AC3B /* Category.swift */,
-				80A5E6101E1D0C150087AC3B /* Condition.swift */,
-				80A5E6111E1D0C150087AC3B /* Image.swift */,
-				80A5E6121E1D0C150087AC3B /* Inventory.swift */,
-				80A5E6131E1D0C150087AC3B /* Item.swift */,
-				80A5E6141E1D0C150087AC3B /* Module.swift */,
-				80A5E6151E1D0C150087AC3B /* Order.swift */,
-				80A5E6161E1D0C150087AC3B /* Payment.swift */,
-				80A5E6171E1D0C150087AC3B /* Point.swift */,
-				80A5E6181E1D0C150087AC3B /* Price.swift */,
-				80A5E6191E1D0C150087AC3B /* Review.swift */,
-				80A5E61A1E1D0C150087AC3B /* SellerType.swift */,
-				80A5E61B1E1D0C150087AC3B /* Shipping.swift */,
-				80A5E61C1E1D0C150087AC3B /* Store.swift */,
-				80A5E61D1E1D0C150087AC3B /* ToolType.swift */,
-			);
-			name = Entity;
-			sourceTree = "<group>";
-		};
-		80A5E5FC1E1D0BC10087AC3B /* Factory */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6081E1D0C090087AC3B /* ItemFactory.swift */,
-				80A5E6091E1D0C090087AC3B /* ModuleFactory.swift */,
-			);
-			name = Factory;
-			sourceTree = "<group>";
-		};
-		80A5E5FD1E1D0BC60087AC3B /* API */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E5FF1E1D0BD50087AC3B /* ItemSearch */,
-				80A5E5FE1E1D0BCF0087AC3B /* ItemLookup */,
-				80A5E5F71E1D0BAA0087AC3B /* YahooShoppingAPIEndpoint.swift */,
-			);
-			name = API;
-			sourceTree = "<group>";
-		};
-		80A5E5FE1E1D0BCF0087AC3B /* ItemLookup */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6041E1D0BF50087AC3B /* ShoppingItemLookup.swift */,
-			);
-			name = ItemLookup;
-			sourceTree = "<group>";
-		};
-		80A5E5FF1E1D0BD50087AC3B /* ItemSearch */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6001E1D0BE60087AC3B /* ShoppingItemSearch.swift */,
-			);
-			name = ItemSearch;
-			sourceTree = "<group>";
-		};
-		80A5E6421E1D0C340087AC3B /* Books */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6491E1D0C500087AC3B /* API */,
-				80A5E6481E1D0C4B0087AC3B /* Entity */,
-				80A5E6471E1D0C470087AC3B /* Value */,
-			);
-			name = Books;
-			sourceTree = "<group>";
-		};
-		80A5E6471E1D0C470087AC3B /* Value */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E64A1E1D0C5E0087AC3B /* BookSize.swift */,
-				80A5E64B1E1D0C5E0087AC3B /* Carrier.swift */,
-				80A5E64C1E1D0C5E0087AC3B /* ChirayomiFlag.swift */,
-				80A5E64D1E1D0C5E0087AC3B /* GenreInfoFlag.swift */,
-				80A5E64E1E1D0C5E0087AC3B /* LimitedFlag.swift */,
-				80A5E64F1E1D0C5E0087AC3B /* OutOfStockFlag.swift */,
-				80A5E6501E1D0C5E0087AC3B /* RakutenBooksAvailability.swift */,
-				80A5E6511E1D0C5E0087AC3B /* RakutenSort.swift */,
-			);
-			name = Value;
-			sourceTree = "<group>";
-		};
-		80A5E6481E1D0C4B0087AC3B /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E65A1E1D0C6A0087AC3B /* RakutenBookSearchItem.swift */,
-				80A5E65B1E1D0C6A0087AC3B /* RakutenBookSearchMetaData.swift */,
-			);
-			name = Entity;
-			sourceTree = "<group>";
-		};
-		80A5E6491E1D0C500087AC3B /* API */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E65E1E1D0C730087AC3B /* BookSearch */,
-				80A5E6441E1D0C3F0087AC3B /* RakutenBooksAPIEndpoint.swift */,
-			);
-			name = API;
-			sourceTree = "<group>";
-		};
-		80A5E65E1E1D0C730087AC3B /* BookSearch */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E65F1E1D0C810087AC3B /* RakutenBooksSearch.swift */,
-			);
-			name = BookSearch;
 			sourceTree = "<group>";
 		};
 		80A5E6721E1D0D570087AC3B /* Frameworks */ = {
@@ -856,14 +850,13 @@
 				80A5E62D1E1D0C150087AC3B /* Shipping.swift in Sources */,
 				80A5E63C1E1D0C230087AC3B /* RegionCode.swift in Sources */,
 				80A5E6581E1D0C5E0087AC3B /* RakutenBooksAvailability.swift in Sources */,
-				6B1256F521A1467D009587B0 /* String+CustomExtension.swift in Sources */,
-				6B1256F121A14677009587B0 /* Logger.swift in Sources */,
 				80A5E5F31E1D0B8A0087AC3B /* Request.swift in Sources */,
+				6B12572521A14AFD009587B0 /* String+CustomExtension.swift in Sources */,
 				80A5E6231E1D0C150087AC3B /* Image.swift in Sources */,
-				6B1256F421A1467D009587B0 /* Date+CustomExtension.swift in Sources */,
 				80A5E6061E1D0BF50087AC3B /* ShoppingItemLookup.swift in Sources */,
 				80A5E6391E1D0C230087AC3B /* ImageSize.swift in Sources */,
 				80A5E65D1E1D0C6A0087AC3B /* RakutenBookSearchMetaData.swift in Sources */,
+				6B12572621A14B01009587B0 /* Logger.swift in Sources */,
 				80A5E5F21E1D0B8A0087AC3B /* Parameter.swift in Sources */,
 				6B2D6C6B1EB72B41003607F5 /* YelpSearch.swift in Sources */,
 				80A5E6571E1D0C5E0087AC3B /* OutOfStockFlag.swift in Sources */,
@@ -876,6 +869,7 @@
 				80A5E6521E1D0C5E0087AC3B /* BookSize.swift in Sources */,
 				80A5E63E1E1D0C230087AC3B /* SearchType.swift in Sources */,
 				80A5E63F1E1D0C230087AC3B /* SellerFilterType.swift in Sources */,
+				6B12572421A14AFB009587B0 /* Date+CustomExtension.swift in Sources */,
 				80A5E62E1E1D0C150087AC3B /* Store.swift in Sources */,
 				80A5E65C1E1D0C6A0087AC3B /* RakutenBookSearchItem.swift in Sources */,
 				80A5E6461E1D0C3F0087AC3B /* RakutenBooksAPIEndpoint.swift in Sources */,
