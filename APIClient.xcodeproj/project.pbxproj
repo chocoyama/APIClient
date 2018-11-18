@@ -16,8 +16,6 @@
 		6B301BFF219FE44A0092C6BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B301BFE219FE44A0092C6BB /* API.swift */; };
 		6B301C0321A121D80092C6BB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B301C0221A121D80092C6BB /* Logger.swift */; };
 		6B301C0821A131E50092C6BB /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B301C0721A131E50092C6BB /* APITests.swift */; };
-		6B301C0B21A132360092C6BB /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B301C0A21A132360092C6BB /* API.plist */; };
-		6B301C0E21A139330092C6BB /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B301C0D21A139330092C6BB /* API.plist */; };
 		6B39DEC71EB95A69009F6AA6 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */; };
 		6B39DEC91EB95E49009F6AA6 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */; };
 		6B39DECC1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */; };
@@ -142,8 +140,6 @@
 		6B301BFE219FE44A0092C6BB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		6B301C0221A121D80092C6BB /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6B301C0721A131E50092C6BB /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
-		6B301C0A21A132360092C6BB /* API.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = API.plist; sourceTree = "<group>"; };
-		6B301C0D21A139330092C6BB /* API.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = API.plist; sourceTree = "<group>"; };
 		6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
 		6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationDataCacheStrategy.swift; sourceTree = "<group>"; };
@@ -260,6 +256,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1256E721A143F5009587B0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6B301C0121A121CB0092C6BB /* Helper */,
+				6B301C0021A121BE0092C6BB /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6B1256E821A1440C009587B0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C2E771EB6F991008AEC4B /* Yelp */,
+				80A5E6641E1D0C960087AC3B /* Yahoo */,
+				80A5E6631E1D0C900087AC3B /* Rakuten */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		6B2D6C671EB72AD7003607F5 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,14 +326,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		6B301C0921A132180092C6BB /* Stub */ = {
-			isa = PBXGroup;
-			children = (
-				6B301C0A21A132360092C6BB /* API.plist */,
-			);
-			path = Stub;
-			sourceTree = "<group>";
-		};
 		6B301C1021A13C840092C6BB /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,15 +361,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		6B301C1421A13CD50092C6BB /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				6B301C0121A121CB0092C6BB /* Helper */,
-				6B301C0021A121BE0092C6BB /* Extension */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
 		6B301C1621A13CEF0092C6BB /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,16 +370,6 @@
 				6B301C0721A131E50092C6BB /* APITests.swift */,
 			);
 			path = Client;
-			sourceTree = "<group>";
-		};
-		6B301C1721A13D000092C6BB /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B6C2E771EB6F991008AEC4B /* Yelp */,
-				80A5E6641E1D0C960087AC3B /* Yahoo */,
-				80A5E6631E1D0C900087AC3B /* Rakuten */,
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		6B39DECA1EB95EAD009F6AA6 /* Authorization */ = {
@@ -459,7 +447,7 @@
 				6B301C1021A13C840092C6BB /* Client */,
 				6B301C1221A13CAF0092C6BB /* API */,
 				6B301C1321A13CC00092C6BB /* Configuration */,
-				6B301C1421A13CD50092C6BB /* Util */,
+				6B1256E721A143F5009587B0 /* Util */,
 				80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */,
 				80A5E5CC1E1D0B230087AC3B /* Info.plist */,
 			);
@@ -470,8 +458,7 @@
 			isa = PBXGroup;
 			children = (
 				6B301C1621A13CEF0092C6BB /* Client */,
-				6B301C1721A13D000092C6BB /* API */,
-				6B301C0921A132180092C6BB /* Stub */,
+				6B1256E821A1440C009587B0 /* API */,
 				80A5E5D81E1D0B230087AC3B /* Info.plist */,
 			);
 			path = APIClientTests;
@@ -670,7 +657,6 @@
 				80A5E6841E1D0E520087AC3B /* Assets.xcassets */,
 				80A5E6861E1D0E520087AC3B /* LaunchScreen.storyboard */,
 				80A5E6891E1D0E520087AC3B /* Info.plist */,
-				6B301C0D21A139330092C6BB /* API.plist */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -802,7 +788,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B301C0B21A132360092C6BB /* API.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,7 +796,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A5E6881E1D0E520087AC3B /* LaunchScreen.storyboard in Resources */,
-				6B301C0E21A139330092C6BB /* API.plist in Resources */,
 				80A5E6851E1D0E520087AC3B /* Assets.xcassets in Resources */,
 				80A5E6831E1D0E520087AC3B /* Main.storyboard in Resources */,
 			);
