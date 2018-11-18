@@ -299,6 +299,7 @@
 				80A5E6FD1E1D3AE70087AC3B /* Date+CustomExtension.swift */,
 			);
 			name = Extension;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B301C0121A121CB0092C6BB /* Helper */ = {
@@ -307,16 +308,7 @@
 				6B301C0221A121D80092C6BB /* Logger.swift */,
 			);
 			name = Helper;
-			sourceTree = "<group>";
-		};
-		6B301C0621A131C40092C6BB /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B6C2E771EB6F991008AEC4B /* Yelp */,
-				80A5E6641E1D0C960087AC3B /* Yahoo */,
-				80A5E6631E1D0C900087AC3B /* Rakuten */,
-			);
-			name = API;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B301C0921A132180092C6BB /* Stub */ = {
@@ -327,6 +319,71 @@
 			path = Stub;
 			sourceTree = "<group>";
 		};
+		6B301C1021A13C840092C6BB /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				6B39DECA1EB95EAD009F6AA6 /* Authorization */,
+				80A5E5E91E1D0B8A0087AC3B /* Client.swift */,
+				6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */,
+				80A5E5EA1E1D0B8A0087AC3B /* APIConfiguration.swift */,
+				80A5E5EB1E1D0B8A0087AC3B /* APIEndpoint.swift */,
+				80A5E5EC1E1D0B8A0087AC3B /* Parameter.swift */,
+				80A5E5ED1E1D0B8A0087AC3B /* Request.swift */,
+				80A5E5EE1E1D0B8A0087AC3B /* Result.swift */,
+				6B2D6C651EB7230F003607F5 /* Header.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		6B301C1221A13CAF0092C6BB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C2E691EB6E89A008AEC4B /* Yelp */,
+				80A5E5E41E1D0B550087AC3B /* Yahoo */,
+				80A5E5E31E1D0B4F0087AC3B /* Rakuten */,
+				6B301BFE219FE44A0092C6BB /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6B301C1321A13CC00092C6BB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E5F61E1D0BAA0087AC3B /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		6B301C1421A13CD50092C6BB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6B301C0121A121CB0092C6BB /* Helper */,
+				6B301C0021A121BE0092C6BB /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6B301C1621A13CEF0092C6BB /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				80A5E6661E1D0CAC0087AC3B /* ParameterTests.swift */,
+				80A5E6671E1D0CAC0087AC3B /* RequestTests.swift */,
+				6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */,
+				6B301C0721A131E50092C6BB /* APITests.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		6B301C1721A13D000092C6BB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C2E771EB6F991008AEC4B /* Yelp */,
+				80A5E6641E1D0C960087AC3B /* Yahoo */,
+				80A5E6631E1D0C900087AC3B /* Rakuten */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		6B39DECA1EB95EAD009F6AA6 /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +391,7 @@
 				6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */,
 			);
 			name = Authorization;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B6C2E691EB6E89A008AEC4B /* Yelp */ = {
@@ -344,6 +402,7 @@
 				6B2D6C711EB73010003607F5 /* Value */,
 			);
 			name = Yelp;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B6C2E741EB6F34E008AEC4B /* API */ = {
@@ -362,6 +421,7 @@
 				6B6C2E781EB6F9A7008AEC4B /* YelpAPIClientTest.swift */,
 			);
 			name = Yelp;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6B8852141EB82A570075FFED /* Business */ = {
@@ -375,8 +435,8 @@
 		80A5E5BE1E1D0B230087AC3B = {
 			isa = PBXGroup;
 			children = (
-				80A5E5CA1E1D0B230087AC3B /* ChocoyamaAPIClient */,
-				80A5E5D51E1D0B230087AC3B /* ChocoyamaAPIClientTests */,
+				80A5E5CA1E1D0B230087AC3B /* APIClient */,
+				80A5E5D51E1D0B230087AC3B /* APIClientTests */,
 				80A5E67C1E1D0E520087AC3B /* Sample */,
 				80A5E5C91E1D0B230087AC3B /* Products */,
 				80A5E6721E1D0D570087AC3B /* Frameworks */,
@@ -393,28 +453,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80A5E5CA1E1D0B230087AC3B /* ChocoyamaAPIClient */ = {
+		80A5E5CA1E1D0B230087AC3B /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				80A5E5E61E1D0B670087AC3B /* Client */,
-				80A5E6B11E1D19A00087AC3B /* API */,
-				80A5E6B01E1D19840087AC3B /* Configuration */,
-				80A5E5E51E1D0B610087AC3B /* Util */,
+				6B301C1021A13C840092C6BB /* Client */,
+				6B301C1221A13CAF0092C6BB /* API */,
+				6B301C1321A13CC00092C6BB /* Configuration */,
+				6B301C1421A13CD50092C6BB /* Util */,
 				80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */,
 				80A5E5CC1E1D0B230087AC3B /* Info.plist */,
 			);
-			path = ChocoyamaAPIClient;
+			path = APIClient;
 			sourceTree = "<group>";
 		};
-		80A5E5D51E1D0B230087AC3B /* ChocoyamaAPIClientTests */ = {
+		80A5E5D51E1D0B230087AC3B /* APIClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				80A5E6651E1D0C9C0087AC3B /* Client */,
-				6B301C0621A131C40092C6BB /* API */,
+				6B301C1621A13CEF0092C6BB /* Client */,
+				6B301C1721A13D000092C6BB /* API */,
 				6B301C0921A132180092C6BB /* Stub */,
 				80A5E5D81E1D0B230087AC3B /* Info.plist */,
 			);
-			path = ChocoyamaAPIClientTests;
+			path = APIClientTests;
 			sourceTree = "<group>";
 		};
 		80A5E5E31E1D0B4F0087AC3B /* Rakuten */ = {
@@ -423,6 +483,7 @@
 				80A5E6421E1D0C340087AC3B /* Books */,
 			);
 			name = Rakuten;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		80A5E5E41E1D0B550087AC3B /* Yahoo */ = {
@@ -431,31 +492,7 @@
 				80A5E5F51E1D0B9B0087AC3B /* Shopping */,
 			);
 			name = Yahoo;
-			sourceTree = "<group>";
-		};
-		80A5E5E51E1D0B610087AC3B /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				6B301C0121A121CB0092C6BB /* Helper */,
-				6B301C0021A121BE0092C6BB /* Extension */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		80A5E5E61E1D0B670087AC3B /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				6B39DECA1EB95EAD009F6AA6 /* Authorization */,
-				80A5E5E91E1D0B8A0087AC3B /* Client.swift */,
-				6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */,
-				80A5E5EA1E1D0B8A0087AC3B /* APIConfiguration.swift */,
-				80A5E5EB1E1D0B8A0087AC3B /* APIEndpoint.swift */,
-				80A5E5EC1E1D0B8A0087AC3B /* Parameter.swift */,
-				80A5E5ED1E1D0B8A0087AC3B /* Request.swift */,
-				80A5E5EE1E1D0B8A0087AC3B /* Result.swift */,
-				6B2D6C651EB7230F003607F5 /* Header.swift */,
-			);
-			name = Client;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		80A5E5F51E1D0B9B0087AC3B /* Shopping */ = {
@@ -602,6 +639,7 @@
 				80A5E6701E1D0CC50087AC3B /* RakutenAPIClientsTests.swift */,
 			);
 			name = Rakuten;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		80A5E6641E1D0C960087AC3B /* Yahoo */ = {
@@ -610,17 +648,7 @@
 				80A5E66C1E1D0CB90087AC3B /* YahooAPIClientTests.swift */,
 			);
 			name = Yahoo;
-			sourceTree = "<group>";
-		};
-		80A5E6651E1D0C9C0087AC3B /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E6661E1D0CAC0087AC3B /* ParameterTests.swift */,
-				80A5E6671E1D0CAC0087AC3B /* RequestTests.swift */,
-				6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */,
-				6B301C0721A131E50092C6BB /* APITests.swift */,
-			);
-			name = Client;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		80A5E6721E1D0D570087AC3B /* Frameworks */ = {
@@ -645,25 +673,6 @@
 				6B301C0D21A139330092C6BB /* API.plist */,
 			);
 			path = Sample;
-			sourceTree = "<group>";
-		};
-		80A5E6B01E1D19840087AC3B /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				80A5E5F61E1D0BAA0087AC3B /* Configuration.swift */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
-		80A5E6B11E1D19A00087AC3B /* API */ = {
-			isa = PBXGroup;
-			children = (
-				6B6C2E691EB6E89A008AEC4B /* Yelp */,
-				80A5E5E41E1D0B550087AC3B /* Yahoo */,
-				80A5E5E31E1D0B4F0087AC3B /* Rakuten */,
-				6B301BFE219FE44A0092C6BB /* API.swift */,
-			);
-			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1096,7 +1105,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = ChocoyamaAPIClient/Info.plist;
+				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClient;
@@ -1120,7 +1129,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = ChocoyamaAPIClient/Info.plist;
+				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClient;
@@ -1134,7 +1143,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ChocoyamaAPIClientTests/Info.plist;
+				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1146,7 +1155,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ChocoyamaAPIClientTests/Info.plist;
+				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
