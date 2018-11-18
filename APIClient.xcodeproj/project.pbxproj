@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1256ED21A144E7009587B0 /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1256EC21A144E7009587B0 /* API.plist */; };
+		6B1256EF21A14500009587B0 /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B1256EE21A14500009587B0 /* API.plist */; };
 		6B2D6C641EB71488003607F5 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C631EB71488003607F5 /* Authorization.swift */; };
 		6B2D6C661EB7230F003607F5 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C651EB7230F003607F5 /* Header.swift */; };
 		6B2D6C6B1EB72B41003607F5 /* YelpSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D6C6A1EB72B41003607F5 /* YelpSearch.swift */; };
@@ -131,6 +133,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B1256EC21A144E7009587B0 /* API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = API.plist; sourceTree = "<group>"; };
+		6B1256EE21A14500009587B0 /* API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API.plist; path = Sample/API.plist; sourceTree = SOURCE_ROOT; };
 		6B2D6C631EB71488003607F5 /* Authorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
 		6B2D6C651EB7230F003607F5 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		6B2D6C6A1EB72B41003607F5 /* YelpSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpSearch.swift; sourceTree = "<group>"; };
@@ -460,6 +464,7 @@
 				6B301C1621A13CEF0092C6BB /* Client */,
 				6B1256E821A1440C009587B0 /* API */,
 				80A5E5D81E1D0B230087AC3B /* Info.plist */,
+				6B1256EE21A14500009587B0 /* API.plist */,
 			);
 			path = APIClientTests;
 			sourceTree = "<group>";
@@ -657,6 +662,7 @@
 				80A5E6841E1D0E520087AC3B /* Assets.xcassets */,
 				80A5E6861E1D0E520087AC3B /* LaunchScreen.storyboard */,
 				80A5E6891E1D0E520087AC3B /* Info.plist */,
+				6B1256EC21A144E7009587B0 /* API.plist */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -788,6 +794,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1256EF21A14500009587B0 /* API.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +803,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A5E6881E1D0E520087AC3B /* LaunchScreen.storyboard in Resources */,
+				6B1256ED21A144E7009587B0 /* API.plist in Resources */,
 				80A5E6851E1D0E520087AC3B /* Assets.xcassets in Resources */,
 				80A5E6831E1D0E520087AC3B /* Main.storyboard in Resources */,
 			);
