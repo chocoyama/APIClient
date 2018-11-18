@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80A5E5C71E1D0B230087AC3B"
-               BuildableName = "ChocoyamaAPIClient.framework"
-               BlueprintName = "ChocoyamaAPIClient"
-               ReferencedContainer = "container:ChocoyamaAPIClient.xcodeproj">
+               BuildableName = "APIClient.framework"
+               BlueprintName = "APIClient"
+               ReferencedContainer = "container:APIClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80A5E5D01E1D0B230087AC3B"
-               BuildableName = "ChocoyamaAPIClientTests.xctest"
-               BlueprintName = "ChocoyamaAPIClientTests"
-               ReferencedContainer = "container:ChocoyamaAPIClient.xcodeproj">
+               BuildableName = "APIClientTests.xctest"
+               BlueprintName = "APIClientTests"
+               ReferencedContainer = "container:APIClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80A5E5C71E1D0B230087AC3B"
-            BuildableName = "ChocoyamaAPIClient.framework"
-            BlueprintName = "ChocoyamaAPIClient"
-            ReferencedContainer = "container:ChocoyamaAPIClient.xcodeproj">
+            BuildableName = "APIClient.framework"
+            BlueprintName = "APIClient"
+            ReferencedContainer = "container:APIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80A5E5C71E1D0B230087AC3B"
-            BuildableName = "ChocoyamaAPIClient.framework"
-            BlueprintName = "ChocoyamaAPIClient"
-            ReferencedContainer = "container:ChocoyamaAPIClient.xcodeproj">
+            BuildableName = "APIClient.framework"
+            BlueprintName = "APIClient"
+            ReferencedContainer = "container:APIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80A5E5C71E1D0B230087AC3B"
-            BuildableName = "ChocoyamaAPIClient.framework"
-            BlueprintName = "ChocoyamaAPIClient"
-            ReferencedContainer = "container:ChocoyamaAPIClient.xcodeproj">
+            BuildableName = "APIClient.framework"
+            BlueprintName = "APIClient"
+            ReferencedContainer = "container:APIClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -6,7 +6,7 @@
 //  Copyright © 2016年 chocoyama. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import SwiftyXMLParser
 
 open class ItemFactory {

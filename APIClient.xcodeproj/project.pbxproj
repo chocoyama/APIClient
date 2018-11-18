@@ -31,7 +31,7 @@
 		6B8852131EB80B9E0075FFED /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852121EB80B9E0075FFED /* Attributes.swift */; };
 		6B8852161EB82A6D0075FFED /* YelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852151EB82A6D0075FFED /* YelpBusiness.swift */; };
 		6B8852181EB8367A0075FFED /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852171EB8367A0075FFED /* Hour.swift */; };
-		80A5E5D21E1D0B230087AC3B /* ChocoyamaAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */; };
+		80A5E5D21E1D0B230087AC3B /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* APIClient.framework */; };
 		80A5E5D91E1D0B230087AC3B /* ChocoyamaAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80A5E5E81E1D0B770087AC3B /* String+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5E5E71E1D0B770087AC3B /* String+CustomExtension.swift */; };
 		80A5E5EF1E1D0B8A0087AC3B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5E5E91E1D0B8A0087AC3B /* Client.swift */; };
@@ -96,8 +96,8 @@
 		80A5E6831E1D0E520087AC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A5E6811E1D0E520087AC3B /* Main.storyboard */; };
 		80A5E6851E1D0E520087AC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A5E6841E1D0E520087AC3B /* Assets.xcassets */; };
 		80A5E6881E1D0E520087AC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A5E6861E1D0E520087AC3B /* LaunchScreen.storyboard */; };
-		80A5E6AA1E1D17F20087AC3B /* ChocoyamaAPIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */; };
-		80A5E6AB1E1D17F20087AC3B /* ChocoyamaAPIClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		80A5E6AA1E1D17F20087AC3B /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* APIClient.framework */; };
+		80A5E6AB1E1D17F20087AC3B /* APIClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* APIClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80A5E6FE1E1D3AE70087AC3B /* Date+CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5E6FD1E1D3AE70087AC3B /* Date+CustomExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -125,7 +125,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				80A5E6AB1E1D17F20087AC3B /* ChocoyamaAPIClient.framework in Embed Frameworks */,
+				80A5E6AB1E1D17F20087AC3B /* APIClient.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,10 +158,10 @@
 		6B8852121EB80B9E0075FFED /* Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 		6B8852151EB82A6D0075FFED /* YelpBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusiness.swift; sourceTree = "<group>"; };
 		6B8852171EB8367A0075FFED /* Hour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
-		80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChocoyamaAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A5E5C81E1D0B230087AC3B /* APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChocoyamaAPIClient.h; sourceTree = "<group>"; };
 		80A5E5CC1E1D0B230087AC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80A5E5D11E1D0B230087AC3B /* ChocoyamaAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocoyamaAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A5E5D11E1D0B230087AC3B /* APIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A5E5D81E1D0B230087AC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80A5E5E71E1D0B770087AC3B /* String+CustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+CustomExtension.swift"; sourceTree = "<group>"; };
 		80A5E5E91E1D0B8A0087AC3B /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A5E5D21E1D0B230087AC3B /* ChocoyamaAPIClient.framework in Frameworks */,
+				80A5E5D21E1D0B230087AC3B /* APIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A5E6AA1E1D17F20087AC3B /* ChocoyamaAPIClient.framework in Frameworks */,
+				80A5E6AA1E1D17F20087AC3B /* APIClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +446,8 @@
 		80A5E5C91E1D0B230087AC3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */,
-				80A5E5D11E1D0B230087AC3B /* ChocoyamaAPIClientTests.xctest */,
+				80A5E5C81E1D0B230087AC3B /* APIClient.framework */,
+				80A5E5D11E1D0B230087AC3B /* APIClientTests.xctest */,
 				80A5E67B1E1D0E520087AC3B /* Sample.app */,
 			);
 			name = Products;
@@ -689,9 +689,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		80A5E5C71E1D0B230087AC3B /* ChocoyamaAPIClient */ = {
+		80A5E5C71E1D0B230087AC3B /* APIClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A5E5DC1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "ChocoyamaAPIClient" */;
+			buildConfigurationList = 80A5E5DC1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "APIClient" */;
 			buildPhases = (
 				80A5E5C31E1D0B230087AC3B /* Sources */,
 				80A5E5C41E1D0B230087AC3B /* Frameworks */,
@@ -703,14 +703,14 @@
 			);
 			dependencies = (
 			);
-			name = ChocoyamaAPIClient;
+			name = APIClient;
 			productName = ChocoyamaAPIClient;
-			productReference = 80A5E5C81E1D0B230087AC3B /* ChocoyamaAPIClient.framework */;
+			productReference = 80A5E5C81E1D0B230087AC3B /* APIClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		80A5E5D01E1D0B230087AC3B /* ChocoyamaAPIClientTests */ = {
+		80A5E5D01E1D0B230087AC3B /* APIClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80A5E5DF1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "ChocoyamaAPIClientTests" */;
+			buildConfigurationList = 80A5E5DF1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "APIClientTests" */;
 			buildPhases = (
 				80A5E5CD1E1D0B230087AC3B /* Sources */,
 				80A5E5CE1E1D0B230087AC3B /* Frameworks */,
@@ -721,9 +721,9 @@
 			dependencies = (
 				80A5E5D41E1D0B230087AC3B /* PBXTargetDependency */,
 			);
-			name = ChocoyamaAPIClientTests;
+			name = APIClientTests;
 			productName = ChocoyamaAPIClientTests;
-			productReference = 80A5E5D11E1D0B230087AC3B /* ChocoyamaAPIClientTests.xctest */;
+			productReference = 80A5E5D11E1D0B230087AC3B /* APIClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		80A5E67A1E1D0E520087AC3B /* Sample */ = {
@@ -770,7 +770,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 80A5E5C21E1D0B230087AC3B /* Build configuration list for PBXProject "ChocoyamaAPIClient" */;
+			buildConfigurationList = 80A5E5C21E1D0B230087AC3B /* Build configuration list for PBXProject "APIClient" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -783,8 +783,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80A5E5C71E1D0B230087AC3B /* ChocoyamaAPIClient */,
-				80A5E5D01E1D0B230087AC3B /* ChocoyamaAPIClientTests */,
+				80A5E5C71E1D0B230087AC3B /* APIClient */,
+				80A5E5D01E1D0B230087AC3B /* APIClientTests */,
 				80A5E67A1E1D0E520087AC3B /* Sample */,
 			);
 		};
@@ -945,12 +945,12 @@
 /* Begin PBXTargetDependency section */
 		80A5E5D41E1D0B230087AC3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80A5E5C71E1D0B230087AC3B /* ChocoyamaAPIClient */;
+			target = 80A5E5C71E1D0B230087AC3B /* APIClient */;
 			targetProxy = 80A5E5D31E1D0B230087AC3B /* PBXContainerItemProxy */;
 		};
 		80A5E6AD1E1D17F20087AC3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80A5E5C71E1D0B230087AC3B /* ChocoyamaAPIClient */;
+			target = 80A5E5C71E1D0B230087AC3B /* APIClient */;
 			targetProxy = 80A5E6AC1E1D17F20087AC3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1108,7 +1108,7 @@
 				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClient;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.APIClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1132,7 +1132,7 @@
 				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClient;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.APIClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1145,7 +1145,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClientTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.APIClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1157,7 +1157,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = APIClientTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.ChocoyamaAPIClientTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.APIClientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1202,7 +1202,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80A5E5C21E1D0B230087AC3B /* Build configuration list for PBXProject "ChocoyamaAPIClient" */ = {
+		80A5E5C21E1D0B230087AC3B /* Build configuration list for PBXProject "APIClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80A5E5DA1E1D0B230087AC3B /* Debug */,
@@ -1211,7 +1211,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A5E5DC1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "ChocoyamaAPIClient" */ = {
+		80A5E5DC1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "APIClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80A5E5DD1E1D0B230087AC3B /* Debug */,
@@ -1220,7 +1220,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80A5E5DF1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "ChocoyamaAPIClientTests" */ = {
+		80A5E5DF1E1D0B230087AC3B /* Build configuration list for PBXNativeTarget "APIClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80A5E5E01E1D0B230087AC3B /* Debug */,

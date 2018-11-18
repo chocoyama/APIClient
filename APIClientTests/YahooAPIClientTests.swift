@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ChocoyamaAPIClient
+@testable import APIClient
 
 class YahooAPIClientTests: XCTestCase {
     
