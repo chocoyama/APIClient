@@ -44,7 +44,7 @@ open class URLSessionManager {
     }
     
     internal func cancel(_ transactionId: String, completion: @escaping () -> Void) {
-        let transaction = transactions.filter{ $0.id == transactionId }.first
+        let transaction = transactions.filter { $0.id == transactionId }.first
         guard let targetTransaction = transaction else { completion(); return }
         getTasks { (allTasks) in
             allTasks
@@ -64,12 +64,14 @@ open class URLSessionManager {
 
 extension URLSessionManager {
     fileprivate func setTransaction(transactionId: TransactionId, taskId: Int) {
-        let runningTransaction = transactions.filter{ $0.id == transactionId }.first
-        if let transaction = runningTransaction {
-            transaction.taskIdentifiers.append(taskId)
-        } else {
-            let task = Transaction(id: transactionId, taskIdentifiers: [taskId])
-            transactions.append(task)
+        synchronized(obj: self) { [weak self] in
+            let runningTransaction = self?.transactions.filter { $0.id == transactionId }.first
+            if let transaction = runningTransaction {
+                transaction.taskIdentifiers.append(taskId)
+            } else {
+                let task = Transaction(id: transactionId, taskIdentifiers: [taskId])
+                self?.transactions.append(task)
+            }
         }
     }
     
@@ -81,5 +83,13 @@ extension URLSessionManager {
             allTasks.append(contentsOf: downloadTasks as [URLSessionTask])
             completion(allTasks)
         }
+    }
+}
+
+extension URLSessionManager {
+    private func synchronized(obj: AnyObject, closure: () -> Void) {
+        objc_sync_enter(obj)
+        closure()
+        objc_sync_exit(obj)
     }
 }
