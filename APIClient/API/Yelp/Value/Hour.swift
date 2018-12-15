@@ -28,5 +28,23 @@ public struct Hour {
             case saturday  = 5
             case sunday    = 6
         }
+        
+        public init(
+            isOvernight: Bool,
+            end: String?,
+            day: Day?,
+            start: String?
+        ) {
+           self.isOvernight = isOvernight
+            self.end = end
+            self.day = day
+            self.start = start
+        }
+    }
+    
+    public init(type: String?, opens: [Open], isOpenNow: Bool) {
+        self.type = type
+        self.opens = opens
+        self.isOpenNow = isOpenNow
     }
 }

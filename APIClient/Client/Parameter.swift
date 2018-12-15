@@ -19,15 +19,16 @@ public struct Parameter<T: ParameterType> {
         self.dataSets = dataSets
     }
     
+    /// すでに指定されたパラメータがが存在する場合、上書きする
     public func add(_ parameterType: T) -> Parameter {
-        var dataSets = self.dataSets.filter{ $0.key != parameterType.dataSet.key }
+        var dataSets = self.dataSets.filter { $0.key != parameterType.dataSet.key }
         dataSets.append(parameterType.dataSet)
         return Parameter(dataSets)
     }
     
     public func add(_ parameterTypes: [T]) -> Parameter {
         let keys = parameterTypes.map{ $0.dataSet.key }
-        var dataSets = self.dataSets.filter{ !keys.contains($0.key) }
+        var dataSets = self.dataSets.filter { !keys.contains($0.key) }
         dataSets.append(contentsOf: parameterTypes.map{ $0.dataSet })
         return Parameter(dataSets)
     }
