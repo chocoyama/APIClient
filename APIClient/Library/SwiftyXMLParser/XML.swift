@@ -104,7 +104,7 @@ open class XML {
      */
     open class func parse(_ str: String) throws -> Accessor {
         guard let data = str.data(using: String.Encoding.utf8) else {
-            throw XMLError.failToEncodeString
+            throw XMLError.parseError
         }
         
         return Parser().parse(data)
@@ -130,7 +130,7 @@ open class XML {
      */
     open class func parse(_ str: String, trimming manner: CharacterSet) throws -> Accessor {
         guard let data = str.data(using: String.Encoding.utf8) else {
-            throw XMLError.failToEncodeString
+            throw XMLError.parseError
         }
         
         return Parser(trimming: manner).parse(data)

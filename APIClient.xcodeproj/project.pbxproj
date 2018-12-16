@@ -26,6 +26,11 @@
 		6B39DEC71EB95A69009F6AA6 /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */; };
 		6B39DEC91EB95E49009F6AA6 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */; };
 		6B39DECC1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */; };
+		6B49D1F721C5E0B700A4BEAA /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49D1F221C5E0B600A4BEAA /* XML.swift */; };
+		6B49D1F821C5E0B700A4BEAA /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49D1F321C5E0B600A4BEAA /* Element.swift */; };
+		6B49D1F921C5E0B700A4BEAA /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49D1F421C5E0B700A4BEAA /* Parser.swift */; };
+		6B49D1FA21C5E0B700A4BEAA /* Accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49D1F521C5E0B700A4BEAA /* Accessor.swift */; };
+		6B49D1FB21C5E0B700A4BEAA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49D1F621C5E0B700A4BEAA /* Error.swift */; };
 		6B66D85F21C5CE75001E6886 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66D85E21C5CE75001E6886 /* SwiftyJSON.swift */; };
 		6B6C2E761EB6F35F008AEC4B /* YelpAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C2E751EB6F35F008AEC4B /* YelpAPIEndpoint.swift */; };
 		6B8852091EB806DA0075FFED /* YelpCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852081EB806DA0075FFED /* YelpCategory.swift */; };
@@ -36,11 +41,6 @@
 		6B8852131EB80B9E0075FFED /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852121EB80B9E0075FFED /* Attributes.swift */; };
 		6B8852161EB82A6D0075FFED /* YelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852151EB82A6D0075FFED /* YelpBusiness.swift */; };
 		6B8852181EB8367A0075FFED /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8852171EB8367A0075FFED /* Hour.swift */; };
-		6BDBB38121C5D0BB00C5AD64 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB37C21C5D0BB00C5AD64 /* Element.swift */; };
-		6BDBB38221C5D0BB00C5AD64 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB37D21C5D0BB00C5AD64 /* Parser.swift */; };
-		6BDBB38321C5D0BB00C5AD64 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB37E21C5D0BB00C5AD64 /* Error.swift */; };
-		6BDBB38421C5D0BB00C5AD64 /* Accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB37F21C5D0BB00C5AD64 /* Accessor.swift */; };
-		6BDBB38521C5D0BB00C5AD64 /* XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB38021C5D0BB00C5AD64 /* XML.swift */; };
 		80A5E5D21E1D0B230087AC3B /* APIClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A5E5C81E1D0B230087AC3B /* APIClient.framework */; };
 		80A5E5D91E1D0B230087AC3B /* ChocoyamaAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80A5E5EF1E1D0B8A0087AC3B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5E5E91E1D0B8A0087AC3B /* Client.swift */; };
@@ -156,6 +156,11 @@
 		6B39DEC61EB95A69009F6AA6 /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
 		6B39DEC81EB95E49009F6AA6 /* URLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
 		6B39DECB1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationDataCacheStrategy.swift; sourceTree = "<group>"; };
+		6B49D1F221C5E0B600A4BEAA /* XML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XML.swift; sourceTree = "<group>"; };
+		6B49D1F321C5E0B600A4BEAA /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		6B49D1F421C5E0B700A4BEAA /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		6B49D1F521C5E0B700A4BEAA /* Accessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessor.swift; sourceTree = "<group>"; };
+		6B49D1F621C5E0B700A4BEAA /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		6B66D85E21C5CE75001E6886 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		6B6C2E6C1EB6EE16008AEC4B /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/iOS/OAuthSwift.framework; sourceTree = "<group>"; };
 		6B6C2E751EB6F35F008AEC4B /* YelpAPIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAPIEndpoint.swift; sourceTree = "<group>"; };
@@ -167,11 +172,6 @@
 		6B8852121EB80B9E0075FFED /* Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 		6B8852151EB82A6D0075FFED /* YelpBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusiness.swift; sourceTree = "<group>"; };
 		6B8852171EB8367A0075FFED /* Hour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
-		6BDBB37C21C5D0BB00C5AD64 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
-		6BDBB37D21C5D0BB00C5AD64 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		6BDBB37E21C5D0BB00C5AD64 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		6BDBB37F21C5D0BB00C5AD64 /* Accessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accessor.swift; sourceTree = "<group>"; };
-		6BDBB38021C5D0BB00C5AD64 /* XML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XML.swift; sourceTree = "<group>"; };
 		80A5E5C81E1D0B230087AC3B /* APIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A5E5CB1E1D0B230087AC3B /* ChocoyamaAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChocoyamaAPIClient.h; sourceTree = "<group>"; };
 		80A5E5CC1E1D0B230087AC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -617,11 +617,11 @@
 		6BEFB2EE21C5CF670002E809 /* SwiftyXMLParser */ = {
 			isa = PBXGroup;
 			children = (
-				6BDBB37F21C5D0BB00C5AD64 /* Accessor.swift */,
-				6BDBB37C21C5D0BB00C5AD64 /* Element.swift */,
-				6BDBB37E21C5D0BB00C5AD64 /* Error.swift */,
-				6BDBB37D21C5D0BB00C5AD64 /* Parser.swift */,
-				6BDBB38021C5D0BB00C5AD64 /* XML.swift */,
+				6B49D1F521C5E0B700A4BEAA /* Accessor.swift */,
+				6B49D1F321C5E0B600A4BEAA /* Element.swift */,
+				6B49D1F621C5E0B700A4BEAA /* Error.swift */,
+				6B49D1F421C5E0B700A4BEAA /* Parser.swift */,
+				6B49D1F221C5E0B600A4BEAA /* XML.swift */,
 			);
 			path = SwiftyXMLParser;
 			sourceTree = "<group>";
@@ -858,15 +858,16 @@
 				6B88520D1EB80B0D0075FFED /* Locale.swift in Sources */,
 				6B39DEC91EB95E49009F6AA6 /* URLSessionManager.swift in Sources */,
 				80A5E6211E1D0C150087AC3B /* Category.swift in Sources */,
+				6B49D1F821C5E0B700A4BEAA /* Element.swift in Sources */,
 				80A5E5F01E1D0B8A0087AC3B /* APIConfiguration.swift in Sources */,
+				6B49D1FB21C5E0B700A4BEAA /* Error.swift in Sources */,
 				80A5E6411E1D0C230087AC3B /* StamprallyRank.swift in Sources */,
 				6B2D6C731EB73022003607F5 /* Coordinate.swift in Sources */,
-				6BDBB38221C5D0BB00C5AD64 /* Parser.swift in Sources */,
 				80A5E6261E1D0C150087AC3B /* Module.swift in Sources */,
 				80A5E6401E1D0C230087AC3B /* ShippingType.swift in Sources */,
 				80A5E6021E1D0BE60087AC3B /* ShoppingItemSearch.swift in Sources */,
-				6BDBB38121C5D0BB00C5AD64 /* Element.swift in Sources */,
 				80A5E6251E1D0C150087AC3B /* Item.swift in Sources */,
+				6B49D1F721C5E0B700A4BEAA /* XML.swift in Sources */,
 				80A5E6281E1D0C150087AC3B /* Payment.swift in Sources */,
 				80A5E62D1E1D0C150087AC3B /* Shipping.swift in Sources */,
 				80A5E63C1E1D0C230087AC3B /* RegionCode.swift in Sources */,
@@ -881,10 +882,9 @@
 				6B12572621A14B01009587B0 /* Logger.swift in Sources */,
 				80A5E5F21E1D0B8A0087AC3B /* Parameter.swift in Sources */,
 				6B2D6C6B1EB72B41003607F5 /* YelpSearch.swift in Sources */,
-				6BDBB38521C5D0BB00C5AD64 /* XML.swift in Sources */,
 				80A5E6571E1D0C5E0087AC3B /* OutOfStockFlag.swift in Sources */,
 				6B88520F1EB80B740075FFED /* YelpSort.swift in Sources */,
-				6BDBB38421C5D0BB00C5AD64 /* Accessor.swift in Sources */,
+				6B49D1FA21C5E0B700A4BEAA /* Accessor.swift in Sources */,
 				80A5E6271E1D0C150087AC3B /* Order.swift in Sources */,
 				80A5E6591E1D0C5E0087AC3B /* RakutenSort.swift in Sources */,
 				80A5E6221E1D0C150087AC3B /* Condition.swift in Sources */,
@@ -902,7 +902,6 @@
 				80A5E60A1E1D0C090087AC3B /* ItemFactory.swift in Sources */,
 				6B2D6C661EB7230F003607F5 /* Header.swift in Sources */,
 				80A5E61F1E1D0C150087AC3B /* Availability.swift in Sources */,
-				6BDBB38321C5D0BB00C5AD64 /* Error.swift in Sources */,
 				6B2D6C641EB71488003607F5 /* Authorization.swift in Sources */,
 				6B8852131EB80B9E0075FFED /* Attributes.swift in Sources */,
 				80A5E6541E1D0C5E0087AC3B /* ChirayomiFlag.swift in Sources */,
@@ -919,6 +918,7 @@
 				6B8852111EB80B890075FFED /* PriceLevel.swift in Sources */,
 				6B39DECC1EB95F3A009F6AA6 /* AuthorizationDataCacheStrategy.swift in Sources */,
 				80A5E6291E1D0C150087AC3B /* Point.swift in Sources */,
+				6B49D1F921C5E0B700A4BEAA /* Parser.swift in Sources */,
 				80A5E62C1E1D0C150087AC3B /* SellerType.swift in Sources */,
 				6B88520B1EB80AFA0075FFED /* Term.swift in Sources */,
 				80A5E61E1E1D0C150087AC3B /* Area.swift in Sources */,
@@ -1039,6 +1039,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1093,6 +1094,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1109,10 +1111,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1133,10 +1132,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = APIClient/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1176,10 +1172,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.Sample;
@@ -1194,10 +1187,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.chocoyama.Sample;
