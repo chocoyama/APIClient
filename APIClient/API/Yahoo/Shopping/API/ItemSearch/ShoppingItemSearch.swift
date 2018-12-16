@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyXMLParser
 
 /**
  * Yahoo!ショッピング

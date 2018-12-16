@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyXMLParser
 
 open class ModuleFactory {
     open func create(from moduleXml: XML.Accessor) -> Module {

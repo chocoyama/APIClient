@@ -9,7 +9,6 @@
 // https://www.yelp.com/developers/documentation/v3/business
 
 import Foundation
-import SwiftyJSON
 
 extension API.Yelp.Parameter {
     public enum Business: ParameterType {

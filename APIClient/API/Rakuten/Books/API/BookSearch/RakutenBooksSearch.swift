@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyJSON
 
 /**
  * 楽天

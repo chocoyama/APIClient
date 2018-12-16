@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyJSON
 
 // https://www.yelp.com/developers/documentation/v3/business_search
 
