@@ -40,16 +40,16 @@ extension XML {
      
     */
     @dynamicMemberLookup
-    public enum Accessor: CustomStringConvertible, Swift.Sequence {
-        case singleElement(Element)
-        case sequence([Element])
+    public indirect enum Accessor: CustomStringConvertible, Swift.Sequence {
+        case singleElement(XML.Element)
+        case sequence([XML.Element])
         case failure(Error)
         
-        public init(_ element: Element) {
+        public init(_ element: XML.Element) {
             self = .singleElement(element)
         }
         
-        public init(_ sequence: [Element]) {
+        public init(_ sequence: [XML.Element]) {
             self = .sequence(sequence)
         }
         
@@ -288,7 +288,7 @@ extension XML {
         }
         
         /// access to child Elements
-        public var all: [Element]? {
+        public var all: [XML.Element]? {
             switch self {
             case .singleElement(let element):
                 return [element]
@@ -323,7 +323,7 @@ extension XML {
         
         
         /// if it has wrong XML path or multiple child elements, return nil, otherwise return Element
-        public var element: Element? {
+        public var element: XML.Element? {
             switch self {
             case .singleElement(let element):
                 return element
@@ -436,7 +436,7 @@ extension XML {
             }
         }
         
-        fileprivate func recursivePrintAncient(_ element: Element) -> String {
+        fileprivate func recursivePrintAncient(_ element: XML.Element) -> String {
             var description = element.name
             if let unwrappedParent = element.parentElement {
                 description = recursivePrintAncient(unwrappedParent) + " > " + description

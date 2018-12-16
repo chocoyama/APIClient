@@ -27,7 +27,7 @@ import Foundation
 extension XML {
     class Parser: NSObject, XMLParserDelegate {
         func parse(_ data: Data) -> Accessor {
-            stack = [Element]()
+            stack = [XML.Element]()
             stack.append(documentRoot)
             let parser = XMLParser(data: data)
             parser.delegate = self
@@ -44,12 +44,12 @@ extension XML {
         }
         
         // MARK:- private
-        fileprivate var documentRoot = Element(name: "XML.Parser.AbstructedDocumentRoot")
-        fileprivate var stack = [Element]()
+        fileprivate var documentRoot = XML.Element(name: "XML.Parser.AbstructedDocumentRoot")
+        fileprivate var stack = [XML.Element]()
         fileprivate let trimmingManner: CharacterSet?
         
         func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
-            let node = Element(name: elementName)
+            let node = XML.Element(name: elementName)
             if !attributeDict.isEmpty {
                 node.attributes = attributeDict
             }
